@@ -17,22 +17,18 @@
     "sign"
   ],
   "main": "connector.js",
-  "peerDependencies": {
-    "aws-sdk": "^2.138.0",
-    "elasticsearch": "^15.0.0"
-  },
   "devDependencies": {
-    "aws-sdk": "^2.138.0",
-    "browserify": "^14.5.0",
-    "chai": "^4.1.2",
-    "elasticsearch": "^15.0.0",
-    "eslint": "^4.9.0",
-    "express": "^4.16.2",
-    "minimist": "^1.2.0",
-    "mocha": "^4.0.1",
-    "nyc": "^11.2.1",
-    "puppeteer": "^0.12.0",
-    "sinon": "^4.0.0"
+    "aws-sdk": "^2.1203.0",
+    "browserify": "^17.0.0",
+    "chai": "^4.3.6",
+    "elasticsearch": "Starke/elasticsearch-js-legacy#16.x",
+    "eslint": "^8.22.0",
+    "express": "^4.18.1",
+    "minimist": "^1.2.6",
+    "mocha": "Starke/mocha#master",
+    "nyc": "^15.1.0",
+    "puppeteer": "^16.2.0",
+    "sinon": "^14.0.0"
   },
   "scripts": {
     "test": "nyc --all mocha",
